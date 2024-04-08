@@ -43,9 +43,9 @@ const Highlights = () => {
                 className={styles._image}
               />
               <p className="legend">
-                Top 20 in Software Project Competition (Create'21) held at PIEAS
-                2021, competing against Industrial Projects as 3rd Semester
-                students.
+                Top 20 in Software Project Competition (Create&apos;21) held at
+                PIEAS 2021, competing against Industrial Projects as 3rd
+                Semester students.
               </p>
             </div>
             <div className={styles.imageDiv}>

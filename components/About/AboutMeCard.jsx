@@ -19,11 +19,12 @@ const AboutMeCard = () => {
       </div>
       <div className={styles.AboutMeTextContatiner}>
         <p className={styles.AboutMeInfo}>
-          I'm Afraz Ahmed, a Software Engineer specializing in React and Next.js
-          development. Currently, I hold the position of Associate Software
-          Engineer at Thathal I&TS. Alongside my professional endeavors, I'm
-          pursuing a Major in Software Engineering at FAST NUCES Islamabad, with
-          good understanding of SDLC and software engineering principles
+          I&apos;m Afraz Ahmed, a Software Engineer specializing in React and
+          Next.js development. Currently, I hold the position of Associate
+          Software Engineer at Thathal I&TS. Alongside my professional
+          endeavors, I&apos;m pursuing a Major in Software Engineering at FAST
+          NUCES Islamabad, with good understanding of SDLC and software
+          engineering principles
           <br />
           <br /> 💻 Associate Software Engineer at Thathal I&TS
           <br /> 🙌 AWS Certified Cloud Practitioner
