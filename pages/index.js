@@ -16,8 +16,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Sharjeel Yunus | Portfolio</title>
-        <meta name="description" content="Sharjeel Yunus | React / NextJS Dev | Portfolio" />
+        <title>Afraz Ahmed | Portfolio</title>
+        <meta
+          name="description"
+          content="Afraz Ahmed | React / NextJS Dev | Portfolio"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />

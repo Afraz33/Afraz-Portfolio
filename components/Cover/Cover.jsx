@@ -1,11 +1,18 @@
-import Image from 'next/image';
-import React from 'react';
-import { motion } from 'framer-motion';
-import Link from 'next/link';
-import { BsLinkedin, BsGithub, BsTwitter } from 'react-icons/bs';
-import { images } from '../../constants';
+import Image from "next/image";
+import React from "react";
+import { motion } from "framer-motion";
+import Link from "next/link";
+import {
+  BsLinkedin,
+  BsGithub,
+  BsTwitter,
+  BsMailbox,
+  BsMailbox2,
+} from "react-icons/bs";
+import { images } from "../../constants";
 
-import styles from './cover.module.css';
+import styles from "./cover.module.css";
+import { AiOutlineMail } from "react-icons/ai";
 
 const scaleVarients = {
   whileInView: {
@@ -13,14 +20,14 @@ const scaleVarients = {
     opacity: [0, 1],
     transition: {
       duration: 1,
-      ease: 'easeInOut',
+      ease: "easeInOut",
     },
   },
 };
 
 const Cover = () => {
   return (
-    <section id='Home' className={styles.app__cover}>
+    <section id="Home" className={styles.app__cover}>
       <motion.div
         whileInView={{ x: [-100, 0], opacity: [0, 1] }}
         transition={{ duration: 0.5 }}
@@ -31,7 +38,7 @@ const Cover = () => {
             <span>👋</span>
             <div>
               <p className={styles.p_text}>Hello, I am</p>
-              <h1 className={styles.head_text}>Sharjeel Yunus</h1>
+              <h1 className={styles.head_text}>Afraz Ahmed</h1>
             </div>
           </div>
           <div className={styles.align_flex}>
@@ -40,19 +47,19 @@ const Cover = () => {
               <p className={styles.p_text}>React / NextJS Dev</p>
             </div>
             <div className={styles.icons_cmp}>
-              <Link href='https://www.linkedin.com/in/sharjeel-yunus'>
-                <a target='_blank'>
+              <Link href="https://www.linkedin.com/in/afraz03/">
+                <a target="_blank">
                   <BsLinkedin />
                 </a>
               </Link>
-              <Link href='https://github.com/sharjeelyunus'>
-                <a target='_blank'>
+              <Link href="https://github.com/afraz33">
+                <a target="_blank">
                   <BsGithub />
                 </a>
               </Link>
-              <Link href='https://twitter.com/sharjeelyunus'>
-                <a target='_blank'>
-                  <BsTwitter />
+              <Link href="mailto:afraz3301@gmail.com">
+                <a target="_blank">
+                  <AiOutlineMail />
                 </a>
               </Link>
             </div>
@@ -66,14 +73,14 @@ const Cover = () => {
         className={styles.app__cover_img}
       >
         <div className={styles.profile_image}>
-          <Image src={images.ProfilePic} alt='Sharjeel Yunus' />
+          <Image src={images.ProfilePic} alt="Afraz Ahmed" />
         </div>
         <motion.div
           whileInView={{ scale: [0, 1] }}
-          transition={{ duration: 1, ease: 'easeInOut' }}
+          transition={{ duration: 1, ease: "easeInOut" }}
           className={styles.overlay_circle}
         >
-          <Image src={images.circle} alt='profile_circle' />
+          <Image src={images.circle} alt="profile_circle" />
         </motion.div>
       </motion.div>
 
@@ -84,7 +91,7 @@ const Cover = () => {
       >
         {[images.react, images.Nextjs, images.node].map((circle, index) => (
           <div className={styles.circle_cmp} key={`circle-${index}`}>
-            <Image src={circle} width='80%' height='80%' alt='' />
+            <Image src={circle} width="80%" height="80%" alt="" />
           </div>
         ))}
       </motion.div>
