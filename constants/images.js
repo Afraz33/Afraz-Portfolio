@@ -17,7 +17,7 @@ import ExpressJS from "../assets/Expressjs.png";
 import mongodb from "../assets/mongodb.png";
 import firebase from "../assets/firebase.png";
 import AIImage from "../assets/image2.jpeg";
-
+import GigPilot from "../assets/portfolio/web/GigPilot.jpeg";
 export default {
   ProfilePic,
   Artwork,
@@ -38,4 +38,5 @@ export default {
   mongodb,
   firebase,
   AIImage,
+  GigPilot,
 };

@@ -1,61 +1,61 @@
 /* eslint-disable @next/next/no-img-element */
-import { motion } from 'framer-motion';
-import React, { useEffect, useState } from 'react';
-import { AiFillEye, AiFillGithub } from 'react-icons/ai';
-import PortfolioList from './PortfolioList';
+import { motion } from "framer-motion";
+import React, { useEffect, useState } from "react";
+import { AiFillEye, AiFillGithub } from "react-icons/ai";
+import PortfolioList from "./PortfolioList";
 import {
   featuredPortfolio,
   webPortfolio,
   mobilePortfolio,
   designPortfolio,
   web_3,
-} from '../../constants/Data';
-import styles from './portfolio.module.css';
-import Link from 'next/link';
+} from "../../constants/Data";
+import styles from "./portfolio.module.css";
+import Link from "next/link";
 
 const Portfolio = () => {
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
-  const [selected, setSelected] = useState('featured');
+  const [selected, setSelected] = useState("featured");
   const [data, setData] = useState([]);
 
   const list = [
+    // {
+    //   id: "featured",
+    //   title: "Featured",
+    // },
     {
-      id: 'featured',
-      title: 'Featured',
+      id: "web",
+      title: "Web Dev",
     },
-    {
-      id: 'web',
-      title: 'Web Dev',
-    },
-    {
-      id: 'mobile',
-      title: 'App Dev',
-    },
-    {
-      id: 'web_3',
-      title: 'Web 3.0',
-    },
-    {
-      id: 'design',
-      title: 'Design',
-    },
+    // {
+    //   id: 'mobile',
+    //   title: 'App Dev',
+    // },
+    // {
+    //   id: "web_3",
+    //   title: "Web 3.0",
+    // },
+    // {
+    //   id: "design",
+    //   title: "Design",
+    // },
   ];
 
   useEffect(() => {
     switch (selected) {
-      case 'featured':
+      case "featured":
         setData(featuredPortfolio);
         break;
-      case 'web':
+      case "web":
         setData(webPortfolio);
         break;
-      case 'mobile':
+      case "mobile":
         setData(mobilePortfolio);
         break;
-      case 'design':
+      case "design":
         setData(designPortfolio);
         break;
-      case 'web_3':
+      case "web_3":
         setData(web_3);
         break;
       default:
@@ -64,7 +64,7 @@ const Portfolio = () => {
   }, [selected]);
 
   return (
-    <section id='Portfolio' className={styles.Portfolio}>
+    <section id="Portfolio" className={styles.Portfolio}>
       <h2>Portfolio</h2>
       <div className={styles.work__filter}>
         {list.map((item) => (
@@ -92,7 +92,7 @@ const Portfolio = () => {
                 whileHover={{ opacity: [0, 1] }}
                 transition={{
                   duration: 0.25,
-                  ease: 'easeInOut',
+                  ease: "easeInOut",
                   staggerChildren: 0.5,
                 }}
                 className={styles.work__hover}
@@ -129,7 +129,7 @@ export default Portfolio;
 function LinkDiv({ link, Icon }) {
   return (
     <Link href={link}>
-      <a target='_blank'>
+      <a target="_blank">
         <motion.div
           whileInView={{
             scale: [0, 1],

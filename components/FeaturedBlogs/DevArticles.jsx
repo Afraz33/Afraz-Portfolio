@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
-import React from 'react';
-import { BsFillArrowRightCircleFill } from 'react-icons/bs';
-import styles from './featuredblogs.module.css';
+import React from "react";
+import { BsFillArrowRightCircleFill } from "react-icons/bs";
+import styles from "./featuredblogs.module.css";
 
 class DevArticles extends React.Component {
   constructor(props) {
@@ -11,7 +11,7 @@ class DevArticles extends React.Component {
     };
   }
 
-  callApi = (username = 'sharjeelyunus') => {
+  callApi = (username = "afraz33") => {
     fetch(`https://dev.to/api/articles?username=${username}`)
       .then((result) => {
         // Get the result
@@ -34,9 +34,9 @@ class DevArticles extends React.Component {
         <div className={styles.container}>
           {this.state.articles.map((item) => (
             <div className={styles.item} key={item.canonical_url}>
-              <a href={item.canonical_url} target={'_blank'} rel='noreferrer'>
+              <a href={item.canonical_url} target={"_blank"} rel="noreferrer">
                 {item.cover_image ? (
-                  <img src={item.cover_image} alt=''></img>
+                  <img src={item.cover_image} alt=""></img>
                 ) : (
                   <div className={styles.description}>
                     <h2>{item.description}</h2>

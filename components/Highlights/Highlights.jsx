@@ -10,7 +10,8 @@ import five from "../../assets/highlights/5.jpeg";
 import six from "../../assets/highlights/6.jpeg";
 import Daira from "../../assets/highlights/Daira.jpg";
 import Create21 from "../../assets/highlights/Create21.jpg";
-import ImagineCup from "../../assets/highlights/ImagineCup.jpeg";
+import Paisha_ImagineCup from "../../assets/highlights/Paisha_ImagineCup.png";
+
 import styles from "./highlights.module.css";
 import Image from "next/image";
 
@@ -50,7 +51,7 @@ const Highlights = () => {
             </div>
             <div className={styles.imageDiv}>
               <Image
-                src={ImagineCup}
+                src={Paisha_ImagineCup}
                 alt="Sharjeel Yunus at 10Pearls Lahore with GDG Cloud Lahore team"
                 width="800px"
                 height="500px"
