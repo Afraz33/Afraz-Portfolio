@@ -62,38 +62,6 @@ const Highlights = () => {
                 sustainable goal of education.
               </p>
             </div>
-            <div className={styles.imageDiv}>
-              <Image
-                src={four}
-                alt="Sharjeel Yunus at AWS Community Day 2022"
-                width="400px"
-                height="500px"
-                className={styles._image}
-              />
-              <p className="legend">AWS Community Day - Lahore</p>
-            </div>
-            <div className={styles.imageDiv}>
-              <Image
-                src={five}
-                alt="Sharjeel Yunus at The Islamia University of Bahawalpur"
-                width="800px"
-                height="500px"
-                className={styles._image}
-              />
-              <p className="legend">
-                HacktobestFest workshop at The Islamia University of Bahawalpur
-              </p>
-            </div>
-            <div className={styles.imageDiv}>
-              <Image
-                src={six}
-                alt="Sharjeel Yunus at AWS Community Day with AWS Community Day team"
-                width="800px"
-                height="500px"
-                className={styles._image}
-              />
-              <p className="legend">AWS Community Day - Lahore</p>
-            </div>
           </Carousel>
         </div>
       </div>

@@ -14,7 +14,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       <Link href="/">
         <a href="#" className={styles.footer__logo}>
-          SharjeelYunus
+          AfrazAhmed
         </a>
       </Link>
       <ul className={styles.permalinks}>
