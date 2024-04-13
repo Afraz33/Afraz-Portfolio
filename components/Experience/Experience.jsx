@@ -32,7 +32,7 @@ const Experience = () => {
             </div>
             <div className={styles.exp_timeline}>
               <div>07/2023 - Present</div>
-              <div>Pakistan, Hybrid</div>
+              <div>Islamabad, Hybrid</div>
             </div>
           </div>
           <div className={styles.exp_comp}>

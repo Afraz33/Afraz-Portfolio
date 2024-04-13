@@ -20,42 +20,42 @@ const Portfolio = () => {
   const [data, setData] = useState([]);
 
   const list = [
-    {
-      id: "featured",
-      title: "Featured",
-    },
+    // {
+    //   id: "featured",
+    //   title: "Featured",
+    // },
     {
       id: "web",
       title: "Web Dev",
     },
-    {
-      id: "lading-pages",
-      title: "Landing Pages",
-    },
-    {
-      id: "web_3",
-      title: "Web 3.0",
-    },
-    {
-      id: "design",
-      title: "Design",
-    },
-    {
-      id: "AI",
-      title: "Machine Learning",
-    },
-    {
-      id: "automation",
-      title: "Automation / Devops",
-    },
+    // {
+    //   id: "lading-pages",
+    //   title: "Landing Pages",
+    // },
+    // {
+    //   id: "web_3",
+    //   title: "Web 3.0",
+    // },
+    // {
+    //   id: "design",
+    //   title: "Design",
+    // },
+    // {
+    //   id: "AI",
+    //   title: "Machine Learning",
+    // },
+    // {
+    //   id: "automation",
+    //   title: "Automation / Devops",
+    // },
     {
       id: "JS Games",
       title: "JavaScript games",
     },
-    {
-      id: "React Games",
-      title: "React Games",
-    },
+    // {
+    //   id: "React Games",
+    //   title: "React Games",
+    // },
   ];
 
   useEffect(() => {
