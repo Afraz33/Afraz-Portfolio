@@ -10,6 +10,7 @@ import {
   designPortfolio,
   web_3,
   javascriptGames,
+  DevOpsPortfolio,
 } from "../../constants/Data";
 import styles from "./portfolio.module.css";
 import Link from "next/link";
@@ -44,10 +45,10 @@ const Portfolio = () => {
     //   id: "AI",
     //   title: "Machine Learning",
     // },
-    // {
-    //   id: "automation",
-    //   title: "Automation / Devops",
-    // },
+    {
+      id: "automation",
+      title: "Automation / Devops",
+    },
     {
       id: "JS Games",
       title: "JavaScript games",
@@ -78,8 +79,11 @@ const Portfolio = () => {
       case "JS Games":
         setData(javascriptGames);
         break;
+      case "automation":
+        setData(DevOpsPortfolio);
+        break;
       default:
-        setData(featuredPortfolio);
+        setData(webPortfolio);
     }
   }, [selected]);
 

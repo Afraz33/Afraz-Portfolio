@@ -97,6 +97,16 @@ export const webPortfolio = [
   },
   {
     id: 2,
+    title: "Paisha",
+    img: images.paisha.src,
+    description:
+      "A platform to assist bachelor aspirants in Pakistan make informed decisions Through AI.",
+    tags: ["MERN , AI"],
+    projectLink: "https://fyp-fe.vercel.app/",
+    codeLink: "https://github.com/Afraz33/FYP-FE",
+  },
+  {
+    id: 3,
     title: "Tooth-Track",
     img: images.toothTrack.src,
     description: "A website built for dentists to digitize their work",
@@ -105,7 +115,7 @@ export const webPortfolio = [
     codeLink: "https://github.com/Afraz33/Dental-Website",
   },
   {
-    id: 3,
+    id: 4,
     title: "Movify",
     img: images.movify.src,
     description:
@@ -115,7 +125,7 @@ export const webPortfolio = [
     codeLink: "https://github.com/Afraz33/Movify",
   },
   {
-    id: 4,
+    id: 5,
     title: "QuizWiz",
     img: images.quizwiz.src,
 
@@ -125,8 +135,39 @@ export const webPortfolio = [
     projectLink: "https://quiz-app-afraz33.vercel.app/",
     codeLink: "https://github.com/Afraz33/quizwiz",
   },
+  {
+    id: 6,
+    title: "SellerHub+",
+    img: images.sellerHub.src,
+
+    description:
+      "A comprehensive seller management platform tailored for E-commerce applications",
+    tags: ["MERN"],
+
+    codeLink: "https://github.com/Afraz33/SellerHub",
+  },
 ];
 
+export const DevOpsPortfolio = [
+  {
+    id: 1,
+    title: "CI/CD Pipeline ",
+    img: images.Dockerization.src,
+    description:
+      "A CI/CD pipeline to automate the development, testing, and deployment processes of a flask application.",
+    tags: ["Docker, Jenkins, Github Actions"],
+    codeLink: "https://github.com/Afraz33/MLCDPipeline",
+  },
+  {
+    id: 2,
+    title: "NextJs testing automation",
+    img: images.NextJs_test.src,
+    description:
+      "A CI/CD pipeline to automate the testing and development of a NextJS application via test cases using JEST library",
+    tags: ["Github Actions, JEST, NEXTJS"],
+    codeLink: "https://github.com/Afraz33/NextJs-Testing",
+  },
+];
 export const mobilePortfolio = [
   {
     id: 1,

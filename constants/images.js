@@ -18,8 +18,10 @@ import mongodb from "../assets/mongodb.png";
 import firebase from "../assets/firebase.png";
 import AIImage from "../assets/image2.jpeg";
 
+import paisha from "../assets/portfolio/web/paisha.png";
 import GigPilot from "../assets/portfolio/web/GigPilot.jpeg";
 import toothTrack from "../assets/portfolio/web/toothTrack.png";
+import sellerHub from "../assets/portfolio/web/sellerHub.png";
 import movify from "../assets/portfolio/web/movify.png";
 import quizwiz from "../assets/portfolio/web/quizwiz.png";
 
@@ -27,6 +29,8 @@ import diceGame from "../assets/portfolio/javascriptGames/diceGame.png";
 import simonGame from "../assets/portfolio/javascriptGames/simonGame.png";
 import drumGame from "../assets/portfolio/javascriptGames/drumGame.png";
 
+import Dockerization from "../assets/portfolio/Devops/Dockerization.png";
+import NextJs_test from "../assets/portfolio/Devops/NextJS_test.png";
 export default {
   ProfilePic,
   Artwork,
@@ -47,6 +51,7 @@ export default {
   mongodb,
   firebase,
   AIImage,
+  paisha,
   GigPilot,
   movify,
   quizwiz,
@@ -54,4 +59,7 @@ export default {
   simonGame,
   drumGame,
   toothTrack,
+  sellerHub,
+  Dockerization,
+  NextJs_test,
 };
