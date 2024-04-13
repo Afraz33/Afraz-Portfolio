@@ -18,6 +18,9 @@ import mongodb from "../assets/mongodb.png";
 import firebase from "../assets/firebase.png";
 import AIImage from "../assets/image2.jpeg";
 import GigPilot from "../assets/portfolio/web/GigPilot.jpeg";
+import diceGame from "../assets/portfolio/javascriptGames/diceGame.png";
+import simonGame from "../assets/portfolio/javascriptGames/simonGame.png";
+import drumGame from "../assets/portfolio/javascriptGames/drumGame.png";
 export default {
   ProfilePic,
   Artwork,
@@ -39,4 +42,7 @@ export default {
   firebase,
   AIImage,
   GigPilot,
+  diceGame,
+  simonGame,
+  drumGame,
 };

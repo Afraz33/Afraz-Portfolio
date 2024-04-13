@@ -9,6 +9,7 @@ import {
   mobilePortfolio,
   designPortfolio,
   web_3,
+  javascriptGames,
 } from "../../constants/Data";
 import styles from "./portfolio.module.css";
 import Link from "next/link";
@@ -19,26 +20,42 @@ const Portfolio = () => {
   const [data, setData] = useState([]);
 
   const list = [
-    // {
-    //   id: "featured",
-    //   title: "Featured",
-    // },
+    {
+      id: "featured",
+      title: "Featured",
+    },
     {
       id: "web",
       title: "Web Dev",
     },
-    // {
-    //   id: 'mobile',
-    //   title: 'App Dev',
-    // },
-    // {
-    //   id: "web_3",
-    //   title: "Web 3.0",
-    // },
-    // {
-    //   id: "design",
-    //   title: "Design",
-    // },
+    {
+      id: "lading-pages",
+      title: "Landing Pages",
+    },
+    {
+      id: "web_3",
+      title: "Web 3.0",
+    },
+    {
+      id: "design",
+      title: "Design",
+    },
+    {
+      id: "AI",
+      title: "Machine Learning",
+    },
+    {
+      id: "automation",
+      title: "Automation / Devops",
+    },
+    {
+      id: "JS Games",
+      title: "JavaScript games",
+    },
+    {
+      id: "React Games",
+      title: "React Games",
+    },
   ];
 
   useEffect(() => {
@@ -57,6 +74,9 @@ const Portfolio = () => {
         break;
       case "web_3":
         setData(web_3);
+        break;
+      case "JS Games":
+        setData(javascriptGames);
         break;
       default:
         setData(featuredPortfolio);

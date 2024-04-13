@@ -10,7 +10,6 @@ export const techStack = [
   { img: images.mongodb, tech: "MongoDB", level: "80" },
 ];
 
-const portfolioImages = [{ img: images.GigPilot }];
 export const certificates = [
   {
     name: "AWS Certified Cloud Practitioner",
@@ -29,12 +28,12 @@ export const certificates = [
 export const featuredPortfolio = [
   {
     id: 1,
-    title: "Chat App",
-    img: "https://raw.githubusercontent.com/alamorre/nextjs-chat-app/main/assets/nextjs-chat-tutorial.png",
-    description: "NextJS Chat App powered by ChatEngine.io",
-    tags: ["NEXTJS"],
-    projectLink: "https://nextjs-chat-app-rho.vercel.app/",
-    codeLink: "https://github.com/sharjeelyunus/nextjs-chat-app",
+    title: "GigPilot",
+    img: images.GigPilot.src,
+    description: "A job posting app to post and apply for jobs.",
+    tags: ["MERN"],
+
+    codeLink: "https://github.com/Afraz33/GigPilot",
   },
   {
     id: 2,
@@ -55,16 +54,46 @@ export const featuredPortfolio = [
     codeLink: "https://github.com/sharjeelyunus/covid19_tracker",
   },
 ];
-
+export const javascriptGames = [
+  {
+    id: 1,
+    title: "Dice Game",
+    img: images.diceGame.src,
+    description:
+      "A game where the user with the highest number on the dice wins.",
+    tags: ["HTML CSS JS"],
+    projectLink: "https://afraz33.github.io/Dice-Game/dicee.html",
+    codeLink: "https://github.com/Afraz33/Dice-Game.git",
+  },
+  {
+    id: 2,
+    title: "Simon's Game",
+    img: images.simonGame.src,
+    description:
+      "A game where user has to press the correct sequence of colours",
+    tags: ["HTML CSS JS"],
+    projectLink: "https://afraz33.github.io/Simons-Game/",
+    codeLink: "https://github.com/Afraz33/Simons-Game",
+  },
+  {
+    id: 3,
+    title: "Drum Game",
+    img: images.drumGame.src,
+    description: "A game where you can make different sounds by different keys",
+    tags: ["HTML CSS JS"],
+    projectLink: "https://afraz33.github.io/Drum---Kit/",
+    codeLink: "https://github.com/Afraz33/Drum---Kit",
+  },
+];
 export const webPortfolio = [
   {
     id: 1,
-    title: "BUDGET",
-    img: portfolioImages[0].img,
-    description: "Track your transaction & keep your money safe",
-    tags: ["REACT"],
-    projectLink: "https://budgetbysharjeel.web.app/",
-    codeLink: "https://github.com/sharjeelyunus/budget",
+    title: "GigPilot",
+    img: images.GigPilot.src,
+    description: "A job posting app to post and apply for jobs.",
+    tags: ["MERN"],
+
+    codeLink: "https://github.com/Afraz33/GigPilot",
   },
   {
     id: 2,
@@ -88,7 +117,8 @@ export const webPortfolio = [
   {
     id: 4,
     title: "Chat App",
-    img: portfolioImages[0].img,
+    img: "https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Web%20Dev%2Fpeek.jpg?alt=media&token=593d2461-cc03-427d-aaf9-831eee428102",
+
     description: "NextJS Chat App powered by ChatEngine.io",
     tags: ["MERN"],
     // projectLink: "https://nextjs-chat-app-rho.vercel.app/",

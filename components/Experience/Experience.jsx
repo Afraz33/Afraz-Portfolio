@@ -11,7 +11,7 @@ const Experience = () => {
         <div className={styles.exp_container}>
           <div className={styles.exp_comp}>
             <div>
-              <h3>AssociateSoftware Engineer</h3>
+              <h3>Associate Software Engineer</h3>
               <p>Thathal I&TS</p>
             </div>
             <div>
@@ -26,8 +26,7 @@ const Experience = () => {
                 </li>
                 <li>
                   Utilizing NextJs for optimization on the client side, with
-                  NodeJs as the server side framework and Postgresql for the
-                  database.
+                  NodeJs and PostgreSql.
                 </li>
               </ul>
             </div>
