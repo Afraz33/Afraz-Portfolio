@@ -29,8 +29,8 @@ import diceGame from "../assets/portfolio/javascriptGames/diceGame.png";
 import simonGame from "../assets/portfolio/javascriptGames/simonGame.png";
 import drumGame from "../assets/portfolio/javascriptGames/drumGame.png";
 
-import Dockerization from "../assets/portfolio/javascriptGames/docker.png";
-import NextJs_test from "../assets/portfolio/javascriptGames/nextjs.png";
+import Dockerization from "../assets/portfolio/devOps/docker.png";
+import NextJs_test from "../assets/portfolio/devOps/nextjs.png";
 
 export default {
   ProfilePic,
