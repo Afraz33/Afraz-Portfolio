@@ -31,6 +31,7 @@ import drumGame from "../assets/portfolio/javascriptGames/drumGame.png";
 
 import Dockerization from "../assets/portfolio/devOps/Dockerization.png";
 import NextJs_test from "../assets/portfolio/devOps/NextJS_test.png";
+
 export default {
   ProfilePic,
   Artwork,

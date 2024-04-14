@@ -23,6 +23,12 @@ export const certificates = [
     verify:
       "https://www.udemy.com/certificate/UC-5c29d38a-3dca-4096-b0ac-eb0584090951/",
   },
+  {
+    name: "Learning the OWASP Top 10",
+    platform: "Linkedin",
+    verify:
+      "https://www.linkedin.com/learning/certificates/f1296d9b5abf533357738b42d7c0e4e6fd996ce340a32382e11d4b14f35e1ffb",
+  },
 ];
 
 export const featuredPortfolio = [
