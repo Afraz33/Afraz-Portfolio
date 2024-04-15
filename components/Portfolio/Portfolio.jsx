@@ -21,10 +21,10 @@ const Portfolio = () => {
   const [data, setData] = useState([]);
 
   const list = [
-    // {
-    //   id: "featured",
-    //   title: "Featured",
-    // },
+    {
+      id: "featured",
+      title: "Featured",
+    },
     {
       id: "web",
       title: "Web Dev",

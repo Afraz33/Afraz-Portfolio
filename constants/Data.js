@@ -43,21 +43,22 @@ export const featuredPortfolio = [
   },
   {
     id: 2,
-    title: "PEEK",
-    img: "https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Web%20Dev%2Fpeek.jpg?alt=media&token=593d2461-cc03-427d-aaf9-831eee428102",
+    title: "Paisha",
+    img: images.paisha.src,
     description:
-      "A social platform, where users can share places (with images and location) with other users.",
-    tags: ["MERN"],
-    projectLink: "https://peek-mern.web.app/",
-    codeLink: "https://github.com/sharjeelyunus/peek-mern",
+      "A platform to assist bachelor aspirants in Pakistan make informed decisions Through AI.",
+    tags: ["MERN , AI"],
+    projectLink: "https://fyp-fe.vercel.app/",
+    codeLink: "https://github.com/Afraz33/FYP-FE",
   },
   {
     id: 3,
-    title: "COVID TRACKER",
-    img: "https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/App%20Development%2FCorona%20tracker.jpg?alt=media&token=9f40d54d-4a97-476b-b7c3-6fd92b981bfa",
-    description: "CoronaVirus 🦠 statistics around the world🌎",
-    tags: ["FLUTTER"],
-    codeLink: "https://github.com/sharjeelyunus/covid19_tracker",
+    title: "CI/CD Pipeline ",
+    img: images.Dockerization.src,
+    description:
+      "A CI/CD pipeline to automate the development, testing, and deployment processes of a flask application.",
+    tags: ["Docker, Jenkins, Github Actions"],
+    codeLink: "https://github.com/Afraz33/MLCDPipeline",
   },
 ];
 export const javascriptGames = [
